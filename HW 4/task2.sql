@@ -3,7 +3,7 @@ USE pet_database;
 
 INSERT INTO petPet (petName, owner, species, gender, birth, death) VALUES
     ('Hammy', 'Diane', 'hamster', 'M', '2010-10-30', NULL),
-    ('Fluffy', NULL, 'F', 'F', CURRENT_DATE(), NULL),  
+    ('Fluffy', 'Owner', 'F', 'F', CURRENT_DATE(), NULL),  
     ('Kitten1', 'Fluffy', 'cat', 'M', CURRENT_DATE(), NULL),
     ('Kitten2', 'Fluffy', 'cat', 'M', CURRENT_DATE(), NULL),
     ('Kitten3', 'Fluffy', 'cat', 'F', CURRENT_DATE(), NULL),
