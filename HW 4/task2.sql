@@ -1,7 +1,3 @@
-DROP DATABASE IF EXISTS pet_database;
-CREATE DATABASE pet_database;
-USE pet_database;
-
 
 INSERT INTO petEvent (petName, eventDate, eventType, remark) VALUES
     ('Fluffly', '2020-10-15', 'vet', 'antibiotics'),
