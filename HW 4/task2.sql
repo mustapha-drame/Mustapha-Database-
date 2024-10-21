@@ -1,7 +1,9 @@
+USE pet_database;
+
 
 INSERT INTO petEvent (petName, eventDate, eventType, remark) VALUES
     ('Fluffly', '2020-10-15', 'vet', 'antibiotics'),
-    ('Hammy', '2020-20-15', 'vet', 'antibiotics'),
+    ('Hammy', '2020-10-15', 'vet', 'antibiotics'),
     ('Claws', '1997-08-03', 'injury', 'broke the rib');
 
 INSERT INTO petPet (petName, owner, species, gender, birth, death)
