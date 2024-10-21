@@ -1,8 +1,8 @@
--- DROP DATABASE IF EXISTS pet_database;
--- CREATE DATABASE pet_database;
--- USE pet_database;
+DROP DATABASE IF EXISTS pet_database;
+CREATE DATABASE pet_database;
+USE pet_database;
 
--- DROP TABLE IF EXISTS petPet, petEvent;
+DROP TABLE IF EXISTS petPet, petEvent;
 
 CREATE TABLE petPet (PRIMARY KEY petName VARCHAR(20), owner VARCHAR(45), species CHAR(1) CHECK (species IN ('M', 'F')), 
 gender VARCHAR(1), birth DATE() NOT NULL, death DATE());
