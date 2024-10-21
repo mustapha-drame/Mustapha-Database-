@@ -14,7 +14,7 @@ INSERT INTO petPet (petName, owner, species, gender, birth, death)
 
 UPDATE petPet
 SET death = '2020-09-01'
-WHERE petName = 'Puffball'
+WHERE petName = 'Puffball';
 
 DELETE FROM petPet
 WHERE owner = 'Harold' AND species = 'Dog';
