@@ -4,11 +4,11 @@ USE pet_database;
 INSERT INTO petPet (petName, owner, species, gender, birth, death) VALUES
     ('Hammy', 'Diane', 'hamster', 'M', '2010-10-30', NULL),
     ('Fluffy', NULL, 'F', 'F', CURRENT_DATE(), NULL),  
-    ('Kitten1', 'Fluffy', 'M', CURRENT_DATE(), NULL),
-    ('Kitten2', 'Fluffy', 'M', CURRENT_DATE(), NULL),
-    ('Kitten3', 'Fluffy', 'F', CURRENT_DATE(), NULL),
-    ('Kitten4', 'Fluffy', 'F', CURRENT_DATE(), NULL),
-    ('Kitten5', 'Fluffy', 'F', CURRENT_DATE(), NULL);
+    ('Kitten1', 'Fluffy', 'cat', 'M', CURRENT_DATE(), NULL),
+    ('Kitten2', 'Fluffy', 'cat', 'M', CURRENT_DATE(), NULL),
+    ('Kitten3', 'Fluffy', 'cat', 'F', CURRENT_DATE(), NULL),
+    ('Kitten4', 'Fluffy', 'cat', 'F', CURRENT_DATE(), NULL),
+    ('Kitten5', 'Fluffy', 'cat', 'F', CURRENT_DATE(), NULL);
 
 
 INSERT INTO petEvent (petName, eventDate, eventType, remark) VALUES
